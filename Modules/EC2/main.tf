@@ -8,6 +8,3 @@ resource "aws_instance" "ec2_instance" {
     Name = "Instance-in-${each.key}" 
   }
 }
-
-
-
